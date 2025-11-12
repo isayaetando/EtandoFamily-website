@@ -11,7 +11,7 @@
 .product-card__image {
    display: block;
    max-width: 100%;
-   animation: fadeIN .25s;
+   animation: fadeIN 0.25s;
 }
 .product-card__caption {
    display: flex;
@@ -23,7 +23,7 @@
    letter-spacing: 1px;
    padding: 20px;
    border-radius: inherit;
-   animation: fadeIN .5s;
+   animation: fadeIN 0.5s;
 }
 p.product-card__title {
    font-size: 18px;
@@ -32,7 +32,7 @@ p.product-card__title {
 .product-card__subtitle {
    color: #d8d7e3;
 }
-.product-card__footer  {
+.product-card__footer {
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -66,7 +66,8 @@ p.product-card__title {
    from {
       opacity: 0;
       transform: translateY(50px);
-   }to{
+   }
+   to {
       opacity: 1;
       transform: translateY(0);
    }
